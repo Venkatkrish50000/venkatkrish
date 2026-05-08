@@ -33,7 +33,7 @@ public class QuestionController {
     public List<Question> getQuestionsBydlevel(@PathVariable String dlevel) {
         return questionservice.getQuestionsBydlevel(dlevel);
     }
-//Main test
+
     @PostMapping("addQuestion")
     public String addQuestion(@RequestBody Question question) {
         return questionservice.addQuestion(question);
