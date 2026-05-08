@@ -38,11 +38,4 @@ public class QuestionController {
     public String addQuestion(@RequestBody Question question) {
         return questionservice.addQuestion(question);
     }
-
-    // @DeleteMapping("delQuestion")
-    //public String delQuestion(Id id){
-
-    //return questionservice.delQuestion(id); jljkj  this is venkatakrishna
-    //  }
-
 }
