@@ -42,7 +42,7 @@ public class QuestionController {
     // @DeleteMapping("delQuestion")
     //public String delQuestion(Id id){
 
-    //return questionservice.delQuestion(id); jljkj
+    //return questionservice.delQuestion(id); jljkj  this is venkatakrishna
     //  }
 
 }
